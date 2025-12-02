@@ -1,5 +1,11 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
+import tsconfigPaths from "vite-tsconfig-paths";
+
 export default defineNuxtConfig({
-  compatibilityDate: '2025-07-15',
-  devtools: { enabled: true }
-})
+  modules: ["@pinia/nuxt"],
+  css: ["@/assets/css/tailwind.css"],
+  // css: ["bootstrap/dist/css/bootstrap.min.css"],
+  vite: {
+    plugins: [tsconfigPaths()],
+  },
+  compatibilityDate: "2025-12-02",
+});
