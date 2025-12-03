@@ -11,8 +11,8 @@
 
 <script setup>
 import { computed } from 'vue'
-import { useTaskStore } from '@/stores/tasks'
-import { formatGMT8 } from '@/composables/useDateTime'
+import { useTaskStore } from '../stores/task'
+import { formatGMT8 } from '../composables/useDateTime'
 
 const props = defineProps({ task: Object })
 const store = useTaskStore()

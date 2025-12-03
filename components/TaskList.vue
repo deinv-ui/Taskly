@@ -9,7 +9,7 @@
 
 <script setup>
 import TaskItem from './TaskItem.vue'
-import { useTaskStore } from '@/stores/tasks'
+import { useTaskStore } from '../stores/task'
 import { computed } from 'vue'
 
 const props = defineProps({ status: String })

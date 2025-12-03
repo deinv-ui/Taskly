@@ -1,5 +1,0 @@
-[
-  { "id": 1, "title": "Develop Sign Up Page", "status": "To-Do", "createdAt": "2025-12-02T03:00:00Z" },
-  { "id": 2, "title": "Develop login feature", "status": "In Progress", "createdAt": "2025-12-02T04:00:00Z" },
-  { "id": 3, "title": "Setup CI/CD", "status": "Completed", "createdAt": "2025-12-02T05:00:00Z" }
-]

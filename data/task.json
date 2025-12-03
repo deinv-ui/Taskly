@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Design homepage hero",
+    "description": "Create hero mockups",
+    "status": "Todo",
+    "createdAt": "2025-12-01T08:30:00Z"
+  },
+  {
+    "id": 2,
+    "title": "API contract for tasks",
+    "description": "Finalize REST endpoints",
+    "status": "In Progress",
+    "createdAt": "2025-12-02T03:00:00Z"
+  },
+  {
+    "id": 3,
+    "title": "Deploy staging",
+    "description": "Deploy to staging environment",
+    "status": "Completed",
+    "createdAt": "2025-11-30T22:15:00Z"
+  }
+]
