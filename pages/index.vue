@@ -4,7 +4,7 @@
   </div>
 </template>
 
-<script setup lang="ts">
+<script setup>
 import { ref } from "vue";
 import { useRoute } from "vue-router";
 import {
@@ -26,7 +26,7 @@ const navLinks = [
   { name: "Stock", path: "/stock", icon: BarChart3 },
 ];
 
-const isActive = (path: string) => route.path === path;
+const isActive = (path) => route.path === path;
 </script>
 
 <style scoped>
